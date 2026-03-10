@@ -1,20 +1,25 @@
-# Introduction 
-TODO: Give a short introduction of your project. Let this section explain the objectives or the motivation behind this project. 
+# 394673 - Access to Comment on the Water Plant OPS Log
 
-# Getting Started
-TODO: Guide users through getting your code up and running on their own system. In this section you can talk about:
-1.	Installation process
-2.	Software dependencies
-3.	Latest releases
-4.	API references
+## Request Summary
 
-# Build and Test
-TODO: Describe and show how to build your code and run the tests. 
+A user is requesting access to **comment** on the Water Treatment Plant Operations Log in SharePoint.
 
-# Contribute
-TODO: Explain how other users and developers can contribute to make your code better. 
+## SharePoint Site Details
 
-If you want to learn more about creating good readme files then refer the following [guidelines](https://docs.microsoft.com/en-us/azure/devops/repos/git/create-a-readme?view=azure-devops). You can also seek inspiration from the below readme files:
-- [ASP.NET Core](https://github.com/aspnet/Home)
-- [Visual Studio Code](https://github.com/Microsoft/vscode)
-- [Chakra Core](https://github.com/Microsoft/ChakraCore)
+- **Site:** Water Treatment Plant
+- **List:** WTP Operations Log
+- **URL:** https://hollandbpw0.sharepoint.com/sites/WaterTreatmentPlant/Lists/WTP%20Operations%20Log1/SortedByEventDate.aspx
+- **Required Permission:** Contribute (to allow commenting on log entries)
+
+## Steps to Fulfill
+
+1. Navigate to the SharePoint site: [WTP Operations Log](https://hollandbpw0.sharepoint.com/sites/WaterTreatmentPlant/Lists/WTP%20Operations%20Log1/SortedByEventDate.aspx)
+2. Go to **Site Settings** > **Site Permissions**
+3. Find the user and grant them **Contribute** access (or add them to the appropriate SharePoint group that has Contribute rights)
+4. Confirm the user can comment on entries
+5. Notify the user that access has been granted
+
+## Notes
+
+- Contribute permission is needed (not just Read) in order to add comments
+- Coordinate with the SharePoint site owner for the Water Treatment Plant site if you do not have admin rights
